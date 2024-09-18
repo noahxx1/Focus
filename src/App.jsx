@@ -1,14 +1,14 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
+import OurProjects from "./components/OurProjects";
 
 export default function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Portfolio />
+      <OurProjects />
       <Footer />
     </>
   );

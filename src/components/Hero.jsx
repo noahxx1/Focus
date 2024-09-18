@@ -81,7 +81,7 @@ const Hero = () => {
             }`}
           >
             {t(
-              "We Are Focus Company For Digital Solutions. We Work In The Software And Electronic Applications Industry, Design, Development,Implementation And Management Of Websites And Software Projects"
+              "We Work In The Software And Electronic Applications Industry, Design, Development,Implementation And Management Of Websites And Software Projects"
             )}
           </motion.p>
 
