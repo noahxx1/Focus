@@ -21,6 +21,7 @@ import tamiuz1 from "./tamiuz1.png";
 import tamiuz2 from "./tamiuz2.jpg";
 import tamiuz3 from "./tamiuz3.png";
 import logo from "./focus.png";
+import heroImg from "./heroImg.jpg";
 export {
   languageIcon,
   find1,
@@ -45,4 +46,5 @@ export {
   tamiuz2,
   tamiuz3,
   logo,
+  heroImg,
 };

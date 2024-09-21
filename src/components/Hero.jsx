@@ -18,6 +18,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Cookies from "js-cookie";
 import Typewriter from "typewriter-effect";
+import { heroImg } from "../assets";
 
 const Hero = () => {
   const { t, i18n } = useTranslation();
@@ -123,8 +124,8 @@ const Hero = () => {
         </motion.div>
 
         <motion.img
-          src={profilepic}
-          className="w-[300px] md:w-[450px]"
+          src={heroImg}
+          className="w-[300px] md:w-[500px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
