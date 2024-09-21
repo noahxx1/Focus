@@ -95,15 +95,27 @@ const Hero = () => {
             }`}
           >
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                target="_blank"
+                whileHover={{ scale: 1.2 }}
+                href="https://www.facebook.com/focustarkiz"
+              >
                 <AiOutlineFacebook />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                target="_blank"
+                whileHover={{ scale: 1.2 }}
+                href="https://www.linkedin.com/in/focus-holding-934a24272"
+              >
                 <AiOutlineLinkedin />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                target="_blank"
+                whileHover={{ scale: 1.2 }}
+                href="https://whatsapp.com/channel/0029VaRuAd6GehEQUyDqMl2O4"
+              >
                 <AiOutlineWhatsApp />
               </motion.a>
             </div>

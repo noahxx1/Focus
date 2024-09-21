@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { languageIcon } from "../assets";
+import { languageIcon, logo } from "../assets";
 import { useTranslation } from "react-i18next";
 import Cookies from "js-cookie";
 import i18next from "i18next";
@@ -49,7 +49,9 @@ const Navbar = () => {
         className="max-w-[1440px] mx-auto  flex justify-between text-gray-200
         text-xl items-center px-12 h-20"
       >
-        <a href="#">Focus</a>
+        <a href="#">
+          <img src={logo} alt="logo" width={100} className="mt-2" />
+        </a>
 
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
@@ -74,8 +76,8 @@ const Navbar = () => {
           variants={menuVariants}
           className="fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-40"
         >
-          <button onClick={changeLanguage} className="relative left-10 top-5">
-            <img src={languageIcon} alt="" width={40} />
+          <button onClick={changeLanguage} className="relative left-10 top-6">
+            <img src={languageIcon} alt="" width={35} />
           </button>
           <ul className="font-semibold text-4xl space-y-8 mt-24 text-center">
             <li>
@@ -103,7 +105,7 @@ const Navbar = () => {
           </ul>
         </motion.div>
         <button onClick={changeLanguage} className="hidden xl:flex">
-          <img src={languageIcon} alt="" width={40} />
+          <img src={languageIcon} alt="" width={35} />
         </button>
       </div>
     </div>
