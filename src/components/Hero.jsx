@@ -1,4 +1,3 @@
-import profilepic from "../assets/profpic.jpg";
 import ShinyEffect from "./ShinyEffect";
 import {
   AiOutlineFacebook,
@@ -125,7 +124,7 @@ const Hero = () => {
 
         <motion.img
           src={heroImg}
-          className="w-[300px] md:w-[500px]"
+          className="w-[300px] md:w-[500px] rounded-lg"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
